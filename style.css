@@ -134,7 +134,39 @@ p{
 /* end Jahongir   */
 
 /* Xusrav  */
-
+.xcard {
+    padding: 16px;
+    text-align: center;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33%;
+    padding: 0 8px;
+  }
+  
+  .row {
+    margin: 0 -8px;
+  }
+  
+  .ximg {
+    width: 450px;
+    height: 400px;
+  }
+  
+  .xtext {
+    font-size: 30px;
+    border: 2px;
+    border-top-color: aqua;
+    border-bottom-color: aqua;
+    border-left-color:transparent;
+    border-right-color: transparent;
+    border-style: solid;
+  
+  }
 /* end Xusrav   */
 
 /* Samadjon  */
