@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+h1{
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-size: 38px;
+}
+h4{
+    text-transform: uppercase;
+}
+span{
+    color: darkblue;
+}
+.header-title{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+}
+.title{
+    flex: 80%;
+}
+.input-cart{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 8px;
+    border: 1px solid #989595;
+    border-radius: 5px;
+}
+.input-cart>input{
+    width: 300px;
+    border: none;
+    background: white;
+    outline-width: 0;
+}
+.title-cart{
+    text-align: end;
+}
+.fas{
+    color: #e5d11c;
+    font-size: 24px;
+}
+
+/*//////////////////////////////////////////////////////*/
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #080845;
+    padding: 15px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-left: 40px;
+
+}
+
+nav ul li{
+    margin-left: 20px;
+    text-decoration: none;
+
+}
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
+}
+.active, a:hover{
+    color: #d7b775;
+}
+.logos ul{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fab{
+    margin-left: 15px;
+}
+
+
+.image-section{
+    background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F543073%2Fbuilding-with-the-google-logo-at-night.jpg&w=700&op=resize") 100%/100%  no-repeat;
+    height: 75vh;
+    background-size: cover;
+    padding: 130px;
+}
+h2{
+    color: white;
+    text-transform: capitalize;
+    font-size: 5rem;
+
+}
+p{
+    color: #ffffff;
+    font-size: 4.5rem;
+    text-transform: capitalize;
+    font-weight: lighter;
+}
+.btn-dark{
+    margin: 10px 200px;
+    text-align: center;
+    padding:  10px 40px;
+    background: none;
+    color: white;
+    font-size: 28px;
+    border: 1px solid white;
+}
+
+.btn-dark:hover{
+    background-color: #d6b064;
+    cursor: pointer;
+    transition:ease;
+    transition-duration:1s ;
+}
